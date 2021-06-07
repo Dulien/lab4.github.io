@@ -1,0 +1,29 @@
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-custom {
+    background-color: #39603D;
+}
+
+.btn {
+    background-color: #85a39c;
+    border: 2px solid #85a39c;
+}
+
+.btn:hover {
+    background-color: #759b92;
+    border: 2px solid #759b92;
+}
+
+.section {
+    border: 1px solid #3C403D;
+    background-color: #DADED4;
+}

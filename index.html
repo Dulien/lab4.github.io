@@ -1,0 +1,368 @@
+<!doctype html>
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <title>Module 4 Lab</title>
+</head>
+
+
+<body style="font-family: Rockwell">
+
+    <nav class="navbar text-white p-0 my-0 navbar-custom" >
+        <h1 style="font-family: Tahoma"><img src="images/leaf.png" width="128" height="128" style="margin-left: 20px">   Dulien's Physiotherapy Clinic</h1>
+    </nav>
+
+    <div class="section" style="padding-bottom: 10px">
+        <h1 class="" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; text-align: center; color: #3C403D">Who are we?</h1>
+        <p style="text-size: 20px; color: #3C403D; padding-left: 21%; padding-right: 21%; text-align: center">
+        We are a local Physiotherapy clinic currently based in Ottawa. Our 
+        main center is located at <u><strong style="color: #39603D">888 Meadowlands Dr, ON K2C 3R2</strong></u>. We offer
+        various kinds of services when it comes to Physiotherapy and are prepared to serve you with our premium 
+        services 7 days a week. For more information, please call us at <strong>(613)-346-2784</strong>. If 
+        you wish to book an appointement, please fill out the information at the button of the page and we will
+        get back to you as soon as possible.
+        </p>
+    </div>
+
+    <div class="section my-3">
+        <h1 class="" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; text-align: center; color: #3C403D">What we offer</h1>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D">
+                    <strong>Immediate consultation</strong><br>
+                    Save time — Tell us about your injury and choose the time and place in just one phone call. Finding a physiotherapist in Ottawa is easy.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D">
+                    <strong>Expert matching</strong><br>
+                    We match you with the ideal physiotherapist who specializes in your condition, no matter what the situation.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D">
+                    <strong>Personalized treatment plan</strong><br>
+                    Receive expert treatment and a personalized plan tailored to your home environment. Visit one of our location to create an outline today.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section my-3">
+        <h1 class="" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; text-align: center; color: #3C403D">Services</h1>
+        <div class="container my-3">
+            <div class="row">
+
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D; text-align: center">
+                    <strong>Achilles Tendon Repair</strong><br>
+                    Price per appointement: <strong>$75</strong>
+                    <div style="text-align: center"><img src="images/achilles.png"></div>
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#achillesModal">
+                        More details
+                    </button>
+                    </div>
+                    <div class="modal fade" id="achillesModal" tabindex="-1" aria-labelledby="achillesModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="achillesModalLabel">Achilles Tendon Repair</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Goals for Achilles Reconstruction:
+                                    <ul>
+                                        <li>Allow the tendon to heal, reduce pain, swelling and inflammation</li>
+                                        <li>Restore tendon and muscles to original strength and flexibility</li>
+                                        <li>Gradually return to normal activity and training levels.</li>
+                                        <li>As rehab progresses goals are based on your bodies response.</li>
+                                    </ul>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D; text-align: center">
+                    <strong>ACL Reconstruction</strong><br>
+                    Price per appointement: <strong>$90</strong>
+                    <div style="text-align: center"><img src="images/knee.png"></div>
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aclModal">
+                        More details
+                    </button>
+                    </div>
+                    <div class="modal fade" id="aclModal" tabindex="-1" aria-labelledby="aclModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="aclModalLabel">ACL Reconstruction</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Goals for ACL Reconstruction:
+                                    <ul>
+                                        <li>Fix the anterior cruciate ligament.</li>
+                                        <li>Decrease swelling and obtain full control/extension of the knee.</li>
+                                        <li>Strengthening using closed chain kinetic exercises and balance exercises.</li>
+                                        <li>Progressive work on core muscles.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D; text-align: center">
+                    <strong>Arthritis Therapy</strong><br>
+                    Price per appointement: <strong>$55</strong>
+                    <div style="text-align: center"><img src="images/joint.png"></div>
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#arthritisModal">
+                        More details
+                    </button>
+                    </div>
+                    <div class="modal fade" id="arthritisModal" tabindex="-1" aria-labelledby="arthritisModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="arthritisModalLabel">Arthritis Therapy</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Goals for Arthritis Therapy:
+                                    <ul>
+                                        <li>Improve pain.</li>
+                                        <li>Improve range of motion and mobility.</li>
+                                        <li>Reduce swelling.</li>
+                                        <li>Prevent fractures and further injuries.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D; text-align: center">
+                    <strong>TMJ Pain Therapy</strong><br>
+                    Price per appointement: <strong>$60</strong>
+                    <div style="text-align: center"><img src="images/jaw.png"></div>
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tmjModal">
+                        More details
+                    </button>
+                    </div>
+                    <div class="modal fade" id="tmjModal" tabindex="-1" aria-labelledby="tmjModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="tmjModalLabel">TMJ Pain Therapy</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Goals for TMJ Pain Therapy:
+                                    <ul>
+                                        <li>Reduce pain and tenderness in jaw area.</li>
+                                        <li>Prevent jaw from locking into fixed position.</li>
+                                        <li>Treatement with oral splint or mouth guard.</li>
+                                        <li>Perform stretches to strengthen jaw muscles.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+
+                <div class="col-sm">
+                    <p style="text-size: 20px; color: #3C403D; text-align: center">
+                    <strong>Vestibular Rehabilitation</strong><br>
+                    Price per appointement: <strong>$40</strong>
+                    <div style="text-align: center"><img src="images/dizzy.png"></div>
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vestibularModal">
+                        More details
+                    </button>
+                    </div>
+                    <div class="modal fade" id="vestibularModal" tabindex="-1" aria-labelledby="vestibularModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="vestibularModalLabel">Vestibular Rehabilitation</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Goals for Vestibular Rehabilitation:
+                                    <ul>
+                                        <li>Perform vision stability training.</li>
+                                        <li>Stretching and strengthening exercises.</li>
+                                        <li>Improved ability to stabilize vision/gaze.</li>
+                                        <li>Increase in confidence in ability to maintain balance.</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section my-3">
+        <h1 class="" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; text-align: center; color: #3C403D">Meet the team</h1>
+
+        <div class="row justify-content-around mb-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/person1.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><strong>Eric C.</strong><br>
+                    Special interests in running injuries, post-surgical sports rehab, 
+                    knee and hip replacement, neurological rehab</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/person2.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><strong>Emma F.</strong><br>
+                    Special interests in orthopaedic, 
+                    head injury, 
+                    neurodegenerative condition (ALS, MS, Parkinson’s)</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/person3.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <p class="card-text"><strong>Travis B.</strong><br>
+                    Special interests in sports injury rehab, sprain/strain rehab, 
+                    post operative rehab, headaches management</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section my-3">
+        <h1 class="" style="padding-left: 10px; padding-top: 10px; padding-bottom: 20px; text-align: center; color: #3C403D">Book now</h1>
+
+        <div class="container-lg">
+            <div class="accordion accordion-flush mb-4" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            1. Choose a service
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Here is our list of services</p>
+                            <form class="form-inline">
+                            <label class="" for="inlineFormCustomSelectPref">Services</label>
+                            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                <option selected>Choose...</option>
+                                <option value="1">Achilles Tendon Repair</option>
+                                <option value="2">ACL Reconstruction</option>
+                                <option value="3">Arthritis Therapy</option>
+                                <option value="4">TMJ Pain Therapy</option>
+                                <option value="5">Vestibular Rehabilitation</option>
+                            </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            2. Pick a date
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Select a date</p>
+                            <div class="form-group row">
+                            <label for="dateTimeInput" class="col-2 col-form-label">Date and time</label>
+                            <div class="col-10">
+                                <input class="form-control" type="datetime-local" id="dateTimeInput">
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            3. Enter your contact information
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Your information so we can contact you</p>
+                            <form>
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                </div>
+                                
+                                <div class="form-group col-md-6">
+                                    <label for="input">Name</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="input">Phone Number</label>
+                                    <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary" style="color: white" onclick="reload()">Submit</button>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+  <p style="text-align: center">Website designed by Dulien</p>
+</footer>
+
+</html>
